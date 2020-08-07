@@ -46,21 +46,33 @@ public class MainActivity extends AppCompatActivity {
                 Button btn=(Button) view;
                 btn.setVisibility(View.INVISIBLE);
                 btn.setVisibility(View.GONE);
+                btnOrange.setText(btnRed.getText());
+                btnYellow.setText(btnRed.getText());
+                btnGreen.setText(btnRed.getText());
+                btnBlue.setText(btnRed.getText());
+                btnIndigo.setText(btnRed.getText());
+                btnViolet.setText(btnRed.getText());
+                btnOrange2.setText(btnRed.getText());
+                btnYellow2.setText(btnRed.getText());
+                btnGreen2.setText(btnRed.getText());
+                btnBlue2.setText(btnRed.getText());
+                btnIndigo2.setText(btnRed.getText());
+                btnViolet2.setText(btnRed.getText());
                 btnRed.postDelayed(new Runnable() {
                     @Override
                     public void run() {
-                        btnOrange.setText(btnRed.getText());
-                        btnYellow.setText(btnRed.getText());
-                        btnGreen.setText(btnRed.getText());
-                        btnBlue.setText(btnRed.getText());
-                        btnIndigo.setText(btnRed.getText());
-                        btnViolet.setText(btnRed.getText());
-                        btnOrange2.setText(btnRed.getText());
-                        btnYellow2.setText(btnRed.getText());
-                        btnGreen2.setText(btnRed.getText());
-                        btnBlue2.setText(btnRed.getText());
-                        btnIndigo2.setText(btnRed.getText());
-                        btnViolet2.setText(btnRed.getText());
+                        btnOrange.setText(btnOrange.getText());
+                        btnYellow.setText(btnYellow.getText());
+                        btnGreen.setText(btnGreen.getText());
+                        btnBlue.setText(btnBlue.getText());
+                        btnIndigo.setText(btnIndigo.getText());
+                        btnViolet.setText(btnViolet.getText());
+                        btnOrange2.setText(btnOrange2.getText());
+                        btnYellow2.setText(btnYellow2.getText());
+                        btnGreen2.setText(btnGreen2.getText());
+                        btnBlue2.setText(btnBlue2.getText());
+                        btnIndigo2.setText(btnIndigo2.getText());
+                        btnViolet2.setText(btnViolet2.getText());
 
 
                     }
@@ -74,25 +86,37 @@ public class MainActivity extends AppCompatActivity {
                 Button btn=(Button) view;
                 btn.setVisibility(View.INVISIBLE);
                 btn.setVisibility(View.GONE);
+                btnRed.setText(btnOrange.getText());
+                btnViolet.setText(btnOrange.getText());
+                btnYellow.setText(btnOrange.getText());
+                btnGreen.setText(btnOrange.getText());
+                btnBlue.setText(btnOrange.getText());
+                btnIndigo.setText(btnOrange.getText());
+                btnRed2.setText(btnOrange.getText());
+                btnViolet2.setText(btnOrange.getText());
+                btnYellow2.setText(btnOrange.getText());
+                btnGreen2.setText(btnOrange.getText());
+                btnBlue2.setText(btnOrange.getText());
+                btnIndigo2.setText(btnOrange.getText());
                 btnOrange.postDelayed(new Runnable() {
                     @Override
                     public void run() {
-                        btnRed.setText(btnOrange.getText());
-                        btnViolet.setText(btnOrange.getText());
-                        btnYellow.setText(btnOrange.getText());
-                        btnGreen.setText(btnOrange.getText());
-                        btnBlue.setText(btnOrange.getText());
-                        btnIndigo.setText(btnOrange.getText());
-                        btnRed2.setText(btnOrange.getText());
-                        btnViolet2.setText(btnOrange.getText());
-                        btnYellow2.setText(btnOrange.getText());
-                        btnGreen2.setText(btnOrange.getText());
-                        btnBlue2.setText(btnOrange.getText());
-                        btnIndigo2.setText(btnOrange.getText());
+                        btnRed.setText(btnRed.getText());
+                        btnViolet.setText(btnViolet.getText());
+                        btnYellow.setText(btnYellow.getText());
+                        btnGreen.setText(btnGreen.getText());
+                        btnBlue.setText(btnBlue.getText());
+                        btnIndigo.setText(btnIndigo.getText());
+                        btnRed2.setText(btnRed2.getText());
+                        btnViolet2.setText(btnViolet2.getText());
+                        btnYellow2.setText(btnYellow2.getText());
+                        btnGreen2.setText(btnGreen2.getText());
+                        btnBlue2.setText(btnBlue2.getText());
+                        btnIndigo2.setText(btnIndigo2.getText());
 
 
                     }
-                },2000);
+                },5000);
             }
         });
         btnYellow.setOnClickListener(new View.OnClickListener() {
@@ -101,21 +125,33 @@ public class MainActivity extends AppCompatActivity {
                 Button btn=(Button) view;
                 btn.setVisibility(View.INVISIBLE);
                 btn.setVisibility(View.GONE);
+                btnRed.setText(btnYellow.getText());
+                btnOrange.setText(btnYellow.getText());
+                btnViolet.setText(btnYellow.getText());
+                btnGreen.setText(btnYellow.getText());
+                btnBlue.setText(btnYellow.getText());
+                btnIndigo.setText(btnYellow.getText());
+                btnRed2.setText(btnYellow.getText());
+                btnOrange2.setText(btnYellow.getText());
+                btnViolet2.setText(btnYellow.getText());
+                btnGreen2.setText(btnYellow.getText());
+                btnBlue2.setText(btnYellow.getText());
+                btnIndigo2.setText(btnYellow.getText());
                 btnYellow.postDelayed(new Runnable() {
                     @Override
                     public void run() {
-                        btnRed.setText(btnYellow.getText());
-                        btnOrange.setText(btnYellow.getText());
-                        btnViolet.setText(btnYellow.getText());
-                        btnGreen.setText(btnYellow.getText());
-                        btnBlue.setText(btnYellow.getText());
-                        btnIndigo.setText(btnYellow.getText());
-                        btnRed2.setText(btnYellow.getText());
-                        btnOrange2.setText(btnYellow.getText());
-                        btnViolet2.setText(btnYellow.getText());
-                        btnGreen2.setText(btnYellow.getText());
-                        btnBlue2.setText(btnYellow.getText());
-                        btnIndigo2.setText(btnYellow.getText());
+                        btnRed.setText(btnRed.getText());
+                        btnOrange.setText(btnOrange.getText());
+                        btnViolet.setText(btnViolet.getText());
+                        btnGreen.setText(btnGreen.getText());
+                        btnBlue.setText(btnBlue.getText());
+                        btnIndigo.setText(btnIndigo.getText());
+                        btnRed2.setText(btnRed2.getText());
+                        btnOrange2.setText(btnOrange2.getText());
+                        btnViolet2.setText(btnViolet2.getText());
+                        btnGreen2.setText(btnGreen2.getText());
+                        btnBlue2.setText(btnBlue2.getText());
+                        btnIndigo2.setText(btnIndigo2.getText());
 
 
                     }
@@ -128,21 +164,33 @@ public class MainActivity extends AppCompatActivity {
                 Button btn=(Button) view;
                 btn.setVisibility(View.INVISIBLE);
                 btn.setVisibility(View.GONE);
+                btnRed.setText(btnGreen.getText());
+                btnOrange.setText(btnGreen.getText());
+                btnYellow.setText(btnGreen.getText());
+                btnViolet.setText(btnGreen.getText());
+                btnBlue.setText(btnGreen.getText());
+                btnIndigo.setText(btnGreen.getText());
+                btnRed2.setText(btnGreen2.getText());
+                btnOrange2.setText(btnGreen2.getText());
+                btnYellow2.setText(btnGreen2.getText());
+                btnViolet2.setText(btnGreen2.getText());
+                btnBlue2.setText(btnGreen2.getText());
+                btnIndigo2.setText(btnGreen2.getText());
                 btnGreen.postDelayed(new Runnable() {
                     @Override
                     public void run() {
-                        btnRed.setText(btnGreen.getText());
-                        btnOrange.setText(btnGreen.getText());
-                        btnYellow.setText(btnGreen.getText());
-                        btnViolet.setText(btnGreen.getText());
-                        btnBlue.setText(btnGreen.getText());
-                        btnIndigo.setText(btnGreen.getText());
-                        btnRed2.setText(btnGreen2.getText());
-                        btnOrange2.setText(btnGreen2.getText());
-                        btnYellow2.setText(btnGreen2.getText());
-                        btnViolet2.setText(btnGreen2.getText());
-                        btnBlue2.setText(btnGreen2.getText());
-                        btnIndigo2.setText(btnGreen2.getText());
+                        btnRed.setText(btnRed.getText());
+                        btnOrange.setText(btnOrange.getText());
+                        btnYellow.setText(btnYellow.getText());
+                        btnViolet.setText(btnViolet.getText());
+                        btnBlue.setText(btnBlue.getText());
+                        btnIndigo.setText(btnIndigo.getText());
+                        btnRed2.setText(btnRed2.getText());
+                        btnOrange2.setText(btnOrange2.getText());
+                        btnYellow2.setText(btnYellow2.getText());
+                        btnViolet2.setText(btnViolet2.getText());
+                        btnBlue2.setText(btnBlue2.getText());
+                        btnIndigo2.setText(btnIndigo2.getText());
 
 
                     }
@@ -156,21 +204,33 @@ public class MainActivity extends AppCompatActivity {
                 Button btn=(Button) view;
                 btn.setVisibility(View.INVISIBLE);
                 btn.setVisibility(View.GONE);
+                btnRed.setText(btnBlue.getText());
+                btnOrange.setText(btnBlue.getText());
+                btnYellow.setText(btnBlue.getText());
+                btnViolet.setText(btnBlue.getText());
+                btnGreen.setText(btnBlue.getText());
+                btnIndigo.setText(btnBlue.getText());
+                btnRed2.setText(btnBlue2.getText());
+                btnOrange2.setText(btnBlue2.getText());
+                btnYellow2.setText(btnBlue2.getText());
+                btnViolet2.setText(btnBlue2.getText());
+                btnGreen2.setText(btnBlue2.getText());
+                btnIndigo2.setText(btnBlue2.getText());
                 btnBlue.postDelayed(new Runnable() {
                     @Override
                     public void run() {
-                        btnRed.setText(btnBlue.getText());
-                        btnOrange.setText(btnBlue.getText());
-                        btnYellow.setText(btnBlue.getText());
-                        btnViolet.setText(btnBlue.getText());
-                        btnGreen.setText(btnBlue.getText());
-                        btnIndigo.setText(btnBlue.getText());
-                        btnRed2.setText(btnBlue2.getText());
-                        btnOrange2.setText(btnBlue2.getText());
-                        btnYellow2.setText(btnBlue2.getText());
-                        btnViolet2.setText(btnBlue2.getText());
-                        btnGreen2.setText(btnBlue2.getText());
-                        btnIndigo2.setText(btnBlue2.getText());
+                        btnRed.setText(btnRed.getText());
+                        btnOrange.setText(btnOrange.getText());
+                        btnYellow.setText(btnYellow.getText());
+                        btnViolet.setText(btnViolet.getText());
+                        btnGreen.setText(btnGreen.getText());
+                        btnIndigo.setText(btnIndigo.getText());
+                        btnRed2.setText(btnRed2.getText());
+                        btnOrange2.setText(btnOrange2.getText());
+                        btnYellow2.setText(btnYellow2.getText());
+                        btnViolet2.setText(btnViolet2.getText());
+                        btnGreen2.setText(btnGreen2.getText());
+                        btnIndigo2.setText(btnIndigo2.getText());
 
 
                     }
@@ -184,21 +244,33 @@ public class MainActivity extends AppCompatActivity {
                 Button btn=(Button) view;
                 btn.setVisibility(View.INVISIBLE);
                 btn.setVisibility(View.GONE);
+                btnRed.setText(btnIndigo.getText());
+                btnOrange.setText(btnIndigo.getText());
+                btnYellow.setText(btnIndigo.getText());
+                btnGreen.setText(btnIndigo.getText());
+                btnBlue.setText(btnIndigo.getText());
+                btnViolet.setText(btnIndigo.getText());
+                btnRed2.setText(btnIndigo2.getText());
+                btnOrange2.setText(btnIndigo2.getText());
+                btnYellow2.setText(btnIndigo2.getText());
+                btnGreen2.setText(btnIndigo2.getText());
+                btnBlue2.setText(btnIndigo2.getText());
+                btnViolet2.setText(btnIndigo2.getText());
                 btnIndigo.postDelayed(new Runnable() {
                     @Override
                     public void run() {
-                        btnRed.setText(btnIndigo.getText());
-                        btnOrange.setText(btnIndigo.getText());
-                        btnYellow.setText(btnIndigo.getText());
-                        btnGreen.setText(btnIndigo.getText());
-                        btnBlue.setText(btnIndigo.getText());
-                        btnViolet.setText(btnIndigo.getText());
-                        btnRed2.setText(btnIndigo2.getText());
-                        btnOrange2.setText(btnIndigo2.getText());
-                        btnYellow2.setText(btnIndigo2.getText());
-                        btnGreen2.setText(btnIndigo2.getText());
-                        btnBlue2.setText(btnIndigo2.getText());
-                        btnViolet2.setText(btnIndigo2.getText());
+                        btnRed.setText(btnRed.getText());
+                        btnOrange.setText(btnOrange.getText());
+                        btnYellow.setText(btnYellow.getText());
+                        btnGreen.setText(btnGreen.getText());
+                        btnBlue.setText(btnBlue.getText());
+                        btnViolet.setText(btnViolet.getText());
+                        btnRed2.setText(btnRed2.getText());
+                        btnOrange2.setText(btnOrange2.getText());
+                        btnYellow2.setText(btnYellow2.getText());
+                        btnGreen2.setText(btnGreen2.getText());
+                        btnBlue2.setText(btnBlue2.getText());
+                        btnViolet2.setText(btnViolet2.getText());
 
 
 
@@ -214,21 +286,33 @@ public class MainActivity extends AppCompatActivity {
                 Button btn=(Button) view;
                 btn.setVisibility(View.INVISIBLE);
                 btn.setVisibility(View.GONE);
+                btnRed.setText(btnViolet.getText());
+                btnOrange.setText(btnViolet.getText());
+                btnYellow.setText(btnViolet.getText());
+                btnGreen.setText(btnViolet.getText());
+                btnBlue.setText(btnViolet.getText());
+                btnIndigo.setText(btnViolet.getText());
+                btnRed2.setText(btnViolet2.getText());
+                btnOrange2.setText(btnViolet2.getText());
+                btnYellow2.setText(btnViolet2.getText());
+                btnGreen2.setText(btnViolet2.getText());
+                btnBlue2.setText(btnViolet2.getText());
+                btnIndigo2.setText(btnViolet2.getText());
                 btnViolet.postDelayed(new Runnable() {
                     @Override
                     public void run() {
-                        btnRed.setText(btnViolet.getText());
-                        btnOrange.setText(btnViolet.getText());
-                        btnYellow.setText(btnViolet.getText());
-                        btnGreen.setText(btnViolet.getText());
-                        btnBlue.setText(btnViolet.getText());
-                        btnIndigo.setText(btnViolet.getText());
-                        btnRed2.setText(btnViolet2.getText());
-                        btnOrange2.setText(btnViolet2.getText());
-                        btnYellow2.setText(btnViolet2.getText());
-                        btnGreen2.setText(btnViolet2.getText());
-                        btnBlue2.setText(btnViolet2.getText());
-                        btnIndigo2.setText(btnViolet2.getText());
+                        btnRed.setText(btnRed.getText());
+                        btnOrange.setText(btnOrange.getText());
+                        btnYellow.setText(btnYellow.getText());
+                        btnGreen.setText(btnGreen.getText());
+                        btnBlue.setText(btnBlue.getText());
+                        btnIndigo.setText(btnIndigo.getText());
+                        btnRed2.setText(btnRed2.getText());
+                        btnOrange2.setText(btnOrange2.getText());
+                        btnYellow2.setText(btnYellow2.getText());
+                        btnGreen2.setText(btnGreen2.getText());
+                        btnBlue2.setText(btnBlue2.getText());
+                        btnIndigo2.setText(btnIndigo2.getText());
 
                     }
                 },5000);

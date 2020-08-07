@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HW7</string>
+    <string name="btn_red">RED</string>
+    <string name="btn_orange">ORANGE</string>
+    <string name="btn_yellow">YELLOW</string>
+    <string name="btn_green">GREEN</string>
+    <string name="btn_blue">BLUE</string>
+    <string name="btn_indigo">INDIGO</string>
+    <string name="btn_violet">VIOLET</string>
+</resources>

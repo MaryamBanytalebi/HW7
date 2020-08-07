@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".controller.MainActivity">
+
+        <Button
+            android:id="@+id/btn_red"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#F44336"
+            android:padding="5dp"
+            android:text="@string/btn_red" />
+
+        <Button
+            android:id="@+id/btn_orange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#FF9800"
+            android:padding="5dp"
+            android:text="@string/btn_orange" />
+
+        <Button
+            android:id="@+id/btn_yellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#FFEB3B"
+            android:padding="5dp"
+            android:text="@string/btn_yellow" />
+
+        <Button
+            android:id="@+id/btn_green"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#4CAF50"
+            android:padding="5dp"
+            android:text="@string/btn_green" />
+
+        <Button
+            android:id="@+id/btn_blue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#2196F3"
+            android:padding="5dp"
+            android:text="@string/btn_blue" />
+
+        <Button
+            android:id="@+id/btn_indigo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#9C27B0"
+            android:padding="5dp"
+            android:text="@string/btn_indigo" />
+
+        <Button
+            android:id="@+id/btn_violet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#E91E63"
+            android:padding="5dp"
+            android:text="@string/btn_violet" />
+
+
+        <Button
+            android:id="@+id/btn_red2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#F44336"
+            android:padding="5dp"
+            android:text="@string/btn_red" />
+
+        <Button
+            android:id="@+id/btn_orange2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#FF9800"
+            android:padding="5dp"
+            android:text="@string/btn_orange" />
+
+        <Button
+            android:id="@+id/btn_yellow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#FFEB3B"
+            android:padding="5dp"
+            android:text="@string/btn_yellow" />
+
+        <Button
+            android:id="@+id/btn_green2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#4CAF50"
+            android:padding="5dp"
+            android:text="@string/btn_green" />
+
+        <Button
+            android:id="@+id/btn_blue2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#2196F3"
+            android:padding="5dp"
+            android:text="@string/btn_blue" />
+
+        <Button
+            android:id="@+id/btn_indigo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#9C27B0"
+            android:padding="5dp"
+            android:text="@string/btn_indigo" />
+
+        <Button
+            android:id="@+id/btn_violet2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#E91E63"
+            android:padding="5dp"
+            android:text="@string/btn_violet" />
+    </LinearLayout>
+</ScrollView>
